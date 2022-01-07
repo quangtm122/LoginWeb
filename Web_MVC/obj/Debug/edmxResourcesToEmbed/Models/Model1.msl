@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QuanLyNLDCModelStoreContainer" CdmEntityContainer="QuanLyNLDCEntities1">
+    <EntitySetMapping Name="ThongTins">
+      <EntityTypeMapping TypeName="QuanLyNLDCModel.ThongTin">
+        <MappingFragment StoreEntitySet="ThongTin">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="hienTai" ColumnName="hienTai" />
+          <ScalarProperty Name="congSuatLonNhat" ColumnName="congSuatLonNhat" />
+          <ScalarProperty Name="thietKe" ColumnName="thietKe" />
+          <ScalarProperty Name="sanLuongNgay" ColumnName="sanLuongNgay" />
+          <ScalarProperty Name="time" ColumnName="time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
